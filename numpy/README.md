@@ -18,6 +18,7 @@ My notes on NumPy, written while going through it properly for the ML roadmap (a
 | 10 | Boolean Masking & Fancy Indexing | [10-boolean-masking-fancy-indexing.md](10-boolean-masking-fancy-indexing.md) |
 | 11 | File I/O & Performance | [11-file-io-performance.md](11-file-io-performance.md) |
 | 12 | ML Use Cases (why this all matters) | [12-ml-use-cases.md](12-ml-use-cases.md) |
+| 13 | Deep Learning Essentials (einsum, stacking, memory layout) | [13-deep-learning-essentials.md](13-deep-learning-essentials.md) |
 
 ## Setup
 ```bash
