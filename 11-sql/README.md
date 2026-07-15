@@ -13,16 +13,16 @@ Notes on SQL, filling the database-querying gap in the roadmap. Every real ML/da
 | 05 | Joins | [05-joins.md](05-joins.md) |
 | 06 | Subqueries & CTEs | [06-subqueries-and-ctes.md](06-subqueries-and-ctes.md) |
 | 07 | Window Functions | [07-window-functions.md](07-window-functions.md) |
-| 08 | Set Operations (UNION, INTERSECT, EXCEPT) | *(coming soon)* |
-| 09 | Schema Design, Data Types & Constraints | *(coming soon)* |
-| 10 | INSERT, UPDATE, DELETE & Transactions | *(coming soon)* |
-| 11 | Indexes & Query Optimization | *(coming soon)* |
-| 12 | String, Date & NULL Functions | *(coming soon)* |
-| 13 | SQL for Data Science / ML Workflows | *(coming soon)* |
-| 14 | SQL → Python/Pandas/ML Bridge | *(coming soon)* |
+| 08 | Set Operations (UNION, INTERSECT, EXCEPT) | [08-set-operations.md](08-set-operations.md) |
+| 09 | Schema Design, Data Types & Constraints | [09-schema-design-data-types-constraints.md](09-schema-design-data-types-constraints.md) |
+| 10 | INSERT, UPDATE, DELETE & Transactions | [10-insert-update-delete-transactions.md](10-insert-update-delete-transactions.md) |
+| 11 | Indexes & Query Optimization | [11-indexes-and-query-optimization.md](11-indexes-and-query-optimization.md) |
+| 12 | String, Date & NULL Functions | [12-string-date-null-functions.md](12-string-date-null-functions.md) |
+| 13 | SQL for Data Science / ML Workflows | [13-sql-for-data-science-ml-workflows.md](13-sql-for-data-science-ml-workflows.md) |
+| 14 | SQL → Python/Pandas/ML Bridge | [14-sql-to-python-pandas-ml-bridge.md](14-sql-to-python-pandas-ml-bridge.md) |
 
 ## How to read these
-Files 01-07 build directly on each other in order — SELECT/filtering, then aggregation, then joins, then subqueries/CTEs, then window functions. Every file includes runnable SQLite examples and links back to equivalent pandas operations from earlier in the repo.
+Files 01-07 build directly on each other in order — SELECT/filtering, then aggregation, then joins, then subqueries/CTEs, then window functions. Files 08-12 round out the practical toolkit (set operations, schema design, transactions, optimization, utility functions). File 13 connects everything to real ML workflows, and file 14 closes the loop with a full concept map back to pandas. Every file includes runnable SQLite examples.
 
 ## Roadmap position
-Python Basics → NumPy → pandas → Matplotlib → Seaborn → scikit-learn → XGBoost → PyTorch → Math Foundations → DSA → **SQL (in progress)** → Classical NLP → Hugging Face → OpenCV → Flask → MLOps → Cloud → Frontier GenAI → ML System Design → Interview Prep
+Python Basics → NumPy → pandas → Matplotlib → Seaborn → scikit-learn → XGBoost → PyTorch → Math Foundations → DSA → **SQL (done)** → Classical NLP → Hugging Face → OpenCV → Flask → MLOps → Cloud → Frontier GenAI → ML System Design → Interview Prep
